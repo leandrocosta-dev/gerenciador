@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 import plotly.express as px
 import plotly.graph_objects as go
-from streamlit_option_menu import option_menu
+# from streamlit_option_menu import option_menu
 from streamlit_gsheets import GSheetsConnection
 
 # Configuração da página
