@@ -180,8 +180,7 @@ elif selected == "Abastecimento":
                 data_abast = st.date_input("📅 Data do Abastecimento")
                 preco_comb = st.number_input("💰 Preço do Combustível (por litro)", 
                                           min_value=0.0, step=0.01)
-                km_atual = st.number_input("🎯 Km Atual", min_value=float(km_ultimo), 
-                                        value=float(km_ultimo), step=1.0)
+                km_atual = st.number_input("🎯 Km Atual", step=1.0)
             with col2:
                 qtd_litros = st.number_input("🛢️ Quantidade de Litros", 
                                           min_value=0.0, step=0.1)
